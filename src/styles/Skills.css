@@ -1,0 +1,25 @@
+.skills
+{
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.skills .section-head h2
+{
+    color: #dfe6e9;
+}
+
+.skill-data h3
+{
+    color: #dfe6e9;
+    font-size: 1.25rem;
+}
+
+.skill-progress
+{
+    height: 0.5rem;
+}
+
+.skill-progress .progress-bar
+{
+    background-color: #0abde3;
+}

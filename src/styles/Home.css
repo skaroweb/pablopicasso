@@ -1,0 +1,39 @@
+.home
+{
+    background: url('../assets/images/home-bg.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.home .container
+{
+    height: 100%;
+}
+
+.home .container .row
+{
+    height: 100%;
+}
+
+.home .home-content
+{
+    background-color: rgba(0, 0, 0, 0.4);
+    width: fit-content;
+    height: fit-content;
+}
+
+.home .home-content h4
+{
+    color: #dfe6e9;
+}
+
+.home .home-content h1
+{
+    color: #0abde3;
+}
+
+.home .home-content h4 span
+{
+    color: #feca57;
+}

@@ -1,0 +1,38 @@
+.contact {
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.contact .section-head h2 {
+  color: #dfe6e9;
+}
+
+.contact-form .form-label {
+  color: #0abde3;
+  font-size: 1.3rem;
+}
+
+.contact-form .form-control {
+  background-color: #dfe6e9;
+  color: #222f3e;
+  font-size: 1.05rem;
+  letter-spacing: 1px;
+  border: 2px solid #222f3e;
+  border-radius: 0.5rem;
+}
+
+.contact-form .form-text {
+  color: #ee5253;
+  font-size: 0.9rem;
+  font-weight: 600;
+  visibility: hidden;
+}
+
+.contact-form textarea {
+  resize: none;
+}
+
+.contact .svg-inline--fa {
+  font-size: 2em;
+  color: var(--fa-inverse, #fff);
+  margin-bottom: 25px;
+}

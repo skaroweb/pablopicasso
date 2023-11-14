@@ -1,0 +1,19 @@
+.about .about-content
+{
+    color: #222f3e;
+}
+
+.about .about-content p
+{
+    font-size: 1.125rem;
+}
+
+.about .about-content q
+{
+    font-size: 1.25rem;
+}
+
+.about .about-content .primary-btn:hover
+{
+    color: #222f3e;
+}
