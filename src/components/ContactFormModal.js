@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Button, Modal } from "react-bootstrap";
 
 function ContactFormModal(props) {
@@ -9,7 +9,6 @@ function ContactFormModal(props) {
       </Modal.Header>
 
       <Modal.Body>
-        <h5>Dear {props.personName},</h5>
         <p>Thank you for sending a message</p>
         <p>
           Your message has been received. I will contact you within 24 hours.
