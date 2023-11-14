@@ -16,7 +16,7 @@ function ContactFormModal(props) {
         </p>
 
         <h5>Regards,</h5>
-        <h4>Mithun Kumar</h4>
+        <h4>Pablopicasso</h4>
       </Modal.Body>
     </Modal>
   );

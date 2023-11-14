@@ -3,7 +3,6 @@ import { Button, Col, Container, Image, Row } from "react-bootstrap";
 import "../styles/About.css";
 import "../styles/Default.css";
 import MyImage from "../assets/images/profile-pic.png";
-import MuhammadAmmadHassanResume from "../assets/docs/Muhammad Ammad Hassan Resume.pdf";
 
 function About() {
   return (
@@ -27,7 +26,7 @@ function About() {
 
           <Col lg={6} className="px-4 about-content mt-4 mt-lg-0">
             <p className="mb-0" style={{ textAlign: "justify" }}>
-              My name is Mithun Kumar and I am based in Erode, India. I have
+              My name is Pablopicasso and I am based in Erode, India. I have
               completed my graudation in Software Engineering from The
               University of XYZ.
             </p>
@@ -46,15 +45,6 @@ function About() {
               easily work in groups/teams and always take part in the activities
               that enhances my knowledge and skills.
             </p>
-
-            <Button
-              className="main-btn primary-btn d-block mt-3 mx-auto mx-lg-0"
-              href={MuhammadAmmadHassanResume}
-              as="a"
-              download={MuhammadAmmadHassanResume}
-            >
-              Download CV
-            </Button>
           </Col>
         </Row>
       </Container>

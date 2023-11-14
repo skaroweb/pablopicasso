@@ -18,7 +18,7 @@ function Home() {
             className="home-content text-center text-lg-start p-4 mt-2 mt-lg-0"
           >
             <h4>Hi, I am</h4>
-            <h1>Mithun Kumar</h1>
+            <h1>Pablopicasso</h1>
             <h4>
               And I'm a{" "}
               <span className="d-md-block d-lg-inline">

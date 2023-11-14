@@ -46,24 +46,6 @@ function WorkModal(props) {
                 })}
                 <h6 className="mx-2">{}</h6>
               </div>
-
-              <div className="buttons d-flex flex-wrap justify-content-evenly mt-xs-3">
-                <Button
-                  className="main-btn primary-btn mt-3 mt-xs-0"
-                  href={props.github}
-                  target="_blank"
-                >
-                  GitHub Link
-                </Button>
-
-                <Button
-                  className="main-btn primary-btn mt-3 mt-xs-0"
-                  href={props.host}
-                  target="_blank"
-                >
-                  Official Link
-                </Button>
-              </div>
             </Col>
           </Row>
         </Container>
