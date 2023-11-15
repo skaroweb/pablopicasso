@@ -1,44 +1,71 @@
-import { faWordpressSimple } from '@fortawesome/free-brands-svg-icons';
-import { faDatabase, faIdCard, faUsersViewfinder, faLaptopCode, faBriefcase } from '@fortawesome/free-solid-svg-icons';
+import {
+  faWordpressSimple,
+  faReact,
+  faNodeJs,
+  faShopify,
+  faFontAwesomeLogoFull,
+} from "@fortawesome/free-brands-svg-icons";
+import {
+  faLaptopCode,
+  faMobileAlt,
+  faCheck,
+  faFileVideo,
+} from "@fortawesome/free-solid-svg-icons";
 
 let ServicesData = [
+  {
+    serviceID: 1,
+    serviceName: "Frontend Website Development",
+    serviceIcon: faLaptopCode,
+  },
 
-    {
-        serviceID: 1,
-        serviceName: "Frontend Website Development",
-        serviceIcon: faLaptopCode,
-    },
+  {
+    serviceID: 2,
+    serviceName: "WordPress Development",
+    serviceIcon: faWordpressSimple,
+  },
 
-    {
-        serviceID: 2,
-        serviceName: "Portfolio Website Development",
-        serviceIcon: faIdCard,
-    },
+  {
+    serviceID: 3,
+    serviceName: "Web Application Development(ReactJS)",
+    serviceIcon: faReact,
+  },
 
-    {
-        serviceID: 3,
-        serviceName: "WordPress Development",
-        serviceIcon: faWordpressSimple,
-    },
+  {
+    serviceID: 4,
+    serviceName: "Responsive Static site Development",
+    serviceIcon: faMobileAlt,
+  },
 
-    {
-        serviceID: 4,
-        serviceName: "Database Management",
-        serviceIcon: faDatabase,
-    },
+  {
+    serviceID: 5,
+    serviceName: "API Development (Node.js,Express.js)",
+    serviceIcon: faNodeJs,
+  },
 
-    {
-        serviceID: 5,
-        serviceName: "Social Media Management",
-        serviceIcon: faUsersViewfinder,
-    },
+  {
+    serviceID: 6,
+    serviceName: "Shopify site Development",
+    serviceIcon: faShopify,
+  },
 
-    {
-        serviceID: 6,
-        serviceName: "Administrative Assistance",
-        serviceIcon: faBriefcase,
-    }
+  {
+    serviceID: 7,
+    serviceName: "Logo & Brochure Designing (Photoshop/CorelDraw)",
+    serviceIcon: faFontAwesomeLogoFull,
+  },
 
+  {
+    serviceID: 8,
+    serviceName: "Site Speed Optimization",
+    serviceIcon: faCheck,
+  },
+
+  {
+    serviceID: 9,
+    serviceName: "Video Editing ",
+    serviceIcon: faFileVideo,
+  },
 ];
 
 export default ServicesData;

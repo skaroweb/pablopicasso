@@ -2,7 +2,7 @@ import React from "react";
 import { Button, Col, Container, Image, Row } from "react-bootstrap";
 import "../styles/About.css";
 import "../styles/Default.css";
-import MyImage from "../assets/images/profile-pic.png";
+import MyImage from "../assets/images/pablo-escobar.png";
 
 function About() {
   return (
@@ -21,7 +21,12 @@ function About() {
             lg={6}
             className="about-image mx-auto mx-lg-0 text-center"
           >
-            <Image src={MyImage} width={300} fluid />
+            <Image
+              src={MyImage}
+              style={{ borderRadius: "50%" }}
+              width={300}
+              fluid
+            />
           </Col>
 
           <Col lg={6} className="px-4 about-content mt-4 mt-lg-0">
