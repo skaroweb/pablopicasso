@@ -1,39 +1,70 @@
-import HAYTravels from "../assets/images/portfolio/hay-travels.png";
-import HostelsUnited from "../assets/images/portfolio/hostels-united.png";
-import MyPortfolio from "../assets/images/portfolio/my-portfolio.png";
+import Trustedlabsmd from "../assets/images/portfolio/trustedlabsmd.png";
+import Gummies from "../assets/images/portfolio/gummies.png";
+import Zunotrix from "../assets/images/portfolio/zunotrix.png";
+import Hotdealsbazaar from "../assets/images/portfolio/hotdealsbazaar.png";
+import Bimand from "../assets/images/portfolio/bimand.png";
+import Xtecpro from "../assets/images/portfolio/xtecpro.png";
 
 let WorkData = [
   {
     id: 1,
-    projectName: "HAY Travels",
+    projectName: "Trustedlabsmd",
     projectDetails:
-      "HAY Travels is a Pakistani bus company that offers premium class travelling experience. Its aim is to make your travelling experience joyful and comfortable. This website offers you to book your bus tickets at one tap, allows to pay the ticket cost online, helps you to search out the bus schedule easily, 24/7 customer support and many more features available for the ease of customer.",
-    projectTechnologies: ["HTML", "CSS", "JavaScript"],
-    imageURL: HAYTravels,
-    githubURL: "https://github.com/m-ammadhassan/bus-travelling-website",
-    hostURL: "https://hay-travels.web.app/",
+      "Trusted Labs MD provides high-quality, all-natural supplements at affordable prices. We put your health first and foremost. At Trusted Labs all of our ingredients are lab tested & quality is guaranteed. Our team works to bring you the safest, most effective options to help you become a healthier you.",
+    projectTechnologies: ["HTML", "CSS", "JavaScript", "Shopify"],
+    imageURL: Trustedlabsmd,
   },
 
   {
     id: 2,
-    projectName: "Hostels United",
+    projectName: "Gummies",
     projectDetails:
-      "We see many hotel booking companies but there is still a gap that How to accomodate a student or a job holder who travels to another city? To keep the all things in mind a service launched called Hostels United. It will help you to find out a valuable hostel according to your needs in a reasonable cost with all the details you want to know. You can also book a hostel with full payment or a payment in installments.",
-    projectTechnologies: ["HTML", "CSS", "Bootstrap", "JavaScript"],
-    imageURL: HostelsUnited,
-    githubURL: "https://github.com/m-ammadhassan/Hostels-United",
-    hostURL: "https://hostels-united.web.app/",
+      "Looking for a weight loss supplement that actually helps you lose stubborn weight & body fat? Well, you can stop your search right here – because Total Keto ACV + BCB Gummies from Good Health Labs are the real deal. After trying out a bunch of brands, these gummies stood out as the champions, delivering quick and safe weight loss for everyone in our testing crew, including those with some serious weight loss goals.",
+    projectTechnologies: ["HTML", "CSS", "JavaScript"],
+    imageURL: Gummies,
   },
 
   {
     id: 3,
-    projectName: "My Portfolio",
+    projectName: "Hotdealsbazaar",
+    projectDetails:
+      "Affiliate marketing presents an exciting opportunity for individuals to generate passive income without the complexities of product creation or inventory management. Affiliates can leverage a diverse selection of products or services, choosing those aligning with their audience. This flexibility extends to promotional methods, empowering affiliates to utilize blogs, social media, or email marketing. With low financial risk and performance-based earnings, affiliates earn commissions for each sale they drive.",
+    projectTechnologies: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "ReactJS",
+      "ExpressJS",
+      "Strapi",
+    ],
+    imageURL: Hotdealsbazaar,
+  },
+
+  {
+    id: 4,
+    projectName: "Zunotrix",
     projectDetails:
       "Currently I am a front-end developer and my goal is to become MERN stack developer. I created my portfolio website which contains all my details. Other people can see about me, my skills, projects I have done and can also send me a message. I will use this website for professional development to get hired in a best software company and also to get freelancing projects. I will always update it gradually.",
-    projectTechnologies: ["HTML", "CSS", "JavaScript", "ReactJS", "Bootstrap"],
-    imageURL: MyPortfolio,
-    githubURL: "https://github.com/m-ammadhassan/Portfolio-Website-in-React",
-    hostURL: "https://ammad-hassan.web.app/",
+    projectTechnologies: ["HTML", "CSS", "JavaScript", "Elementor"],
+    imageURL: Zunotrix,
+  },
+
+  {
+    id: 5,
+    projectName: "Bimand",
+    projectDetails:
+      "BIMAND's main objective is to introduce everything that the BIM methodology entails in the Principality of Andorra, offering advice , training and service provision . Our team has more than 8 years of experience working in BIM methodology. During all this time we have not stopped training , obtaining postgraduate degrees and professional certifications , among which the BIM Masters and the Revit ACP stand out . At a professional level, we have developed more than 40 architecture, structure and installation projects; we have provided training to more than 50 professionals in the AEC sector and; we have offered services such as implementations , energy analyzes and BIM models .",
+    projectTechnologies: ["HTML", "CSS", "JavaScript", "Bootstrap"],
+    imageURL: Bimand,
+  },
+
+  {
+    id: 6,
+    projectName: "Xtecpro",
+    projectDetails:
+      "XTecPro is a service-oriented Information Technology organization that provides solutions and support of Enterprise Business Applications and B2B-EDI to Customer's need and requirements. We also engage ourselves in providing database support for various business applications",
+    projectTechnologies: ["HTML", "CSS", "PHP", "jQuery", "Bootstrap"],
+    imageURL: Xtecpro,
   },
 ];
 

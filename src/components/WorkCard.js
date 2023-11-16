@@ -49,7 +49,7 @@ function WorkCard() {
 
       {workList.map((work, i) => {
         return (
-          <Col lg={3} md={4} sm={6} className="mb-4 work-card" key={i}>
+          <Col lg={4} md={4} sm={6} className="mb-4 work-card" key={i}>
             <Card
               className="p-0"
               onClick={() => {
