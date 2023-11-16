@@ -17,15 +17,6 @@ let WorkData = [
 
   {
     id: 2,
-    projectName: "Gummies",
-    projectDetails:
-      "Looking for a weight loss supplement that actually helps you lose stubborn weight & body fat? Well, you can stop your search right here – because Total Keto ACV + BCB Gummies from Good Health Labs are the real deal. After trying out a bunch of brands, these gummies stood out as the champions, delivering quick and safe weight loss for everyone in our testing crew, including those with some serious weight loss goals.",
-    projectTechnologies: ["HTML", "CSS", "JavaScript"],
-    imageURL: Gummies,
-  },
-
-  {
-    id: 3,
     projectName: "Hotdealsbazaar",
     projectDetails:
       "Affiliate marketing presents an exciting opportunity for individuals to generate passive income without the complexities of product creation or inventory management. Affiliates can leverage a diverse selection of products or services, choosing those aligning with their audience. This flexibility extends to promotional methods, empowering affiliates to utilize blogs, social media, or email marketing. With low financial risk and performance-based earnings, affiliates earn commissions for each sale they drive.",
@@ -38,6 +29,15 @@ let WorkData = [
       "Strapi",
     ],
     imageURL: Hotdealsbazaar,
+  },
+
+  {
+    id: 3,
+    projectName: "Gummies",
+    projectDetails:
+      "Looking for a weight loss supplement that actually helps you lose stubborn weight & body fat? Well, you can stop your search right here – because Total Keto ACV + BCB Gummies from Good Health Labs are the real deal. After trying out a bunch of brands, these gummies stood out as the champions, delivering quick and safe weight loss for everyone in our testing crew, including those with some serious weight loss goals.",
+    projectTechnologies: ["HTML", "CSS", "JavaScript"],
+    imageURL: Gummies,
   },
 
   {
