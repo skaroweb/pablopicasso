@@ -1,5 +1,4 @@
 import Trustedlabsmd from "../assets/images/portfolio/trustedlabsmd.png";
-import Gummies from "../assets/images/portfolio/gummies.png";
 import Zunotrix from "../assets/images/portfolio/zunotrix.png";
 import Hotdealsbazaar from "../assets/images/portfolio/hotdealsbazaar.png";
 import Bimand from "../assets/images/portfolio/bimand.png";
@@ -11,8 +10,12 @@ import Seoengine from "../assets/images/portfolio/seoengine.png";
 import Travelblog from "../assets/images/portfolio/travelblog.png";
 import Instaengagement from "../assets/images/portfolio/insta-engagement.png";
 import Sapelectrical from "../assets/images/portfolio/sapelectrical.png";
-import Aathira from "../assets/images/portfolio/aathira.png";
 import Drmachinery from "../assets/images/portfolio/drmachinery.png";
+import Topusenet from "../assets/images/portfolio/topusenet.png";
+import Highproxies from "../assets/images/portfolio/highproxies.png";
+import Sanhebeauty from "../assets/images/portfolio/sanhebeauty.png";
+import Wptopspeed from "../assets/images/portfolio/wptopspeed.png";
+import Changfatextile from "../assets/images/portfolio/changfatextile.png";
 
 let WorkData = [
   {
@@ -81,7 +84,7 @@ let WorkData = [
     projectName: "Hakamtcs",
     projectDetails:
       "We are provider and Supplier of longer shelf life and supreme quality cocunut in Qatar, which procured from different farm in pollachi india, our products are in huge demand amongst our clients due to their worthier equality, we provide facility to our customers to customise of packing.",
-    projectTechnologies: ["HTML", "CSS", "jQuery"],
+    projectTechnologies: ["HTML", "CSS", "jQuery", "Wordpress"],
     imageURL: Hakamtcs,
   },
 
@@ -123,15 +126,6 @@ let WorkData = [
 
   {
     id: 12,
-    projectName: "Gummies",
-    projectDetails:
-      "Looking for a weight loss supplement that actually helps you lose stubborn weight & body fat? Well, you can stop your search right here – because Total Keto ACV + BCB Gummies from Good Health Labs are the real deal. After trying out a bunch of brands, these gummies stood out as the champions, delivering quick and safe weight loss for everyone in our testing crew, including those with some serious weight loss goals.",
-    projectTechnologies: ["HTML", "CSS", "JavaScript"],
-    imageURL: Gummies,
-  },
-
-  {
-    id: 13,
     projectName: "Travel Blog",
     projectDetails:
       "A captivating travel blog entices readers with vivid storytelling, transporting them to exotic destinations. Engaging narratives, complemented by stunning visuals, create a sensory experience. Practical tips and itineraries aid fellow travelers, while personal anecdotes add authenticity. Insightful cultural observations and local cuisine highlights provide a well-rounded perspective. Incorporating a touch of humor or unique insights adds flair. ",
@@ -140,21 +134,57 @@ let WorkData = [
   },
 
   {
-    id: 14,
-    projectName: "Aathira",
+    id: 13,
+    projectName: "D&R Machinery",
     projectDetails:
-      "We, Aathira Silver Palace, situated at Erode, Tamil Nadu connects you to the world’s most luxurious jewellery ensuring a handpicked edit of the finest jewels. We believe that buying a piece of luxurious jewellery is experience so we ensure to provide best quality jewellery. We are a fine jewellery marketplace, where you can buy from a wide range of our jewellery collection. We are grateful to be trusted by number of happy customers.",
-    projectTechnologies: ["HTML", "CSS", "jQuery"],
-    imageURL: Aathira,
+      "D&R Machinery are professional confectionery machine manufacturers with over 15 years in the business operating at the highest industry standards. We’ve built a reputation on engineering, designing and delivering high performance total-solution confectionery machinery to clients with absolute precision around the world.",
+    projectTechnologies: ["HTML", "CSS", "jQuery", "Wordpress"],
+    imageURL: Drmachinery,
+  },
+
+  {
+    id: 14,
+    projectName: "Topusenet",
+    projectDetails:
+      "Files and messages are stored on our own servers, making it possible to download at top speed. The download speed depends on your own internet quality and that of the Usenet provider. At Usenet.nl , for example, you can download at up to 800 MBit/s.",
+    projectTechnologies: ["HTML", "CSS", "jQuery", "Wordpress"],
+    imageURL: Topusenet,
   },
 
   {
     id: 15,
-    projectName: "D&R Machinery",
+    projectName: "Highproxies",
     projectDetails:
-      "D&R Machinery are professional confectionery machine manufacturers with over 15 years in the business operating at the highest industry standards. We’ve built a reputation on engineering, designing and delivering high performance total-solution confectionery machinery to clients with absolute precision around the world.",
-    projectTechnologies: ["HTML", "CSS", "jQuery"],
-    imageURL: Drmachinery,
+      "Our Social Media proxies are one of the best that you can find. Premium private proxies, fast, reliable and cheap. Your  problems will be over once you start using our Social Media proxies. Our proxies are specifically tested to be used on social media platforms. Our proxy server fleet is maintained and monitored by a professional team of system administrators around the clock, guarding the stable and fast operation of the proxy.",
+    projectTechnologies: ["HTML", "CSS", "jQuery", "Wordpress"],
+    imageURL: Highproxies,
+  },
+
+  {
+    id: 16,
+    projectName: "Sanhe Beauty",
+    projectDetails:
+      "Sanhe has built an excellent, world-wide beauty industry reputation not just for OEM/ODM manufacturing of top-value beauty and health equipment, but for comprehensive solutions. We beat most competition for price and features, and match top-tier suppliers through great visual design of the machines themselves. We best all comers, however, with excellent guarantees, clear and sincere communication, and localized service.",
+    projectTechnologies: ["HTML", "CSS", "jQuery", "Wordpress"],
+    imageURL: Sanhebeauty,
+  },
+
+  {
+    id: 17,
+    projectName: "Wptopspeed",
+    projectDetails:
+      "We have developed all kind of websites and since the last updates from Google algorithms we decided to focus solely improving the performance of our clients, helping them increase both conversions and rankings (since it's now a very important ranking factor).",
+    projectTechnologies: ["HTML", "CSS", "jQuery", "Wordpress"],
+    imageURL: Wptopspeed,
+  },
+
+  {
+    id: 18,
+    projectName: "Changfatextile",
+    projectDetails:
+      "Clients throughout the Americas, Europe, and Asia know CHANGFA as the fabric sector’s top choice for high-end digital printing of polyester, cotton, rayon, and silk featuring stylish, vivid, 3-D flower-based designs. Why? Firstly, integrity. As a long-running family founded and owned company, our promise to you is a promise kept whether it be product quality, delivery date, or service level. ",
+    projectTechnologies: ["HTML", "CSS", "jQuery", "Wordpress"],
+    imageURL: Changfatextile,
   },
 ];
 
