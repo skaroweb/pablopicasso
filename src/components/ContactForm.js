@@ -59,10 +59,10 @@ function ContactForm() {
   function sendForm() {
     emailjs
       .sendForm(
-        "service_ot9puwv",
-        "template_jky5g33",
+        "service_peay9xc",
+        "template_rglv7tz",
         form.current,
-        "EYnLIKEY3PsxGcD12"
+        "NBdUeKnlNAh4Pl5-0"
       )
       .then(
         (result) => {
