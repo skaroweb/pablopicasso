@@ -2,7 +2,7 @@
 //   faFacebookSquare,
 //   faLinkedin,
 //   faGithubSquare,
-//   faTwitterSquare,
+//   faXTwitter,
 //   faInstagramSquare,
 // } from "@fortawesome/free-brands-svg-icons";
 // import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
@@ -29,7 +29,7 @@ let SocialData = [
   // {
   //   socialMediaID: 4,
   //   socialMediaName: "Twitter",
-  //   socialMediaIcon: faTwitterSquare,
+  //   socialMediaIcon: faXTwitter,
   //   socialMediaLink: "https://www.twitter.com/",
   // },
   // {
