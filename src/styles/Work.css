@@ -1,0 +1,155 @@
+.work-card .card, .modal-content .card
+{
+    height: 100%;
+    min-height: 20rem;
+    border: 2px solid #222f3e;
+    box-shadow: 0 0 16px 4px #222f3e;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.work-card .card span, .modal-content .card span
+{
+    width: 100%;
+    height: 100%;
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0;
+    position: relative;
+    transition: background-position 4s ease-in-out 0s;
+}
+
+.modal-content .card:hover span
+{
+    background-position: bottom center;
+}
+
+.work-card .card .overlay
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.4s ease 0s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.work-card .card:hover .overlay
+{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.work-card .card .overlay h6, .work-card .card .overlay svg
+{
+    color: #dfe6e9;
+    position: absolute;
+    transition: all 0.6s ease 0s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.work-card .card .overlay h6
+{
+    font-size: 1.5rem;
+    top: 75%;
+}
+
+.work-card .card .overlay svg
+{
+    font-size: 2.25rem;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.work-card .card:hover .overlay h6, .work-card .card:hover .overlay svg
+{
+    opacity: 1;
+    visibility: visible;
+}
+
+.work-card .card:hover .overlay h6
+{
+    top: 40%;
+}
+
+.work-card .card:hover .overlay svg
+{
+    top:60%;
+    left: 50%;
+}
+
+.modal-content
+{
+    border: 2px solid #222f3e;
+    border-radius: 8px;
+}
+
+
+.modal-content .modal-header
+{
+    background-color: rgba(0, 0, 0, 1);
+    color: #0abde3;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.modal-content .modal-body
+{
+    background-color: #dfe6e9;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.modal-content .modal-body .title h3
+{
+    color: #222f3e;
+}
+
+.modal-content .modal-body .title h4
+{
+    color: #0abde3;
+    font-weight: 700;
+    letter-spacing: 1px;
+    /* text-shadow: 0 0 2px #0abde3; */
+}
+
+.modal-content .modal-body .description p
+{
+    color: #222f3e;
+    font-size: 1rem;
+}
+
+.modal-content .modal-body .technologies h6
+{
+    width: 6.25rem;
+    color: #222f3e;
+    font-size: 1rem;
+    border: 2px solid #222f3e;
+    border-radius: 1.25rem;
+    text-align: center;
+    padding: 0.5rem;
+    cursor: pointer;
+    transition: all 0.4s ease 0s;
+}
+
+.modal-content .modal-body .technologies h6:hover
+{
+    background-color: #222f3e;
+    color: #0abde3;
+}
+
+.modal-content .modal-body .technologies h6:last-child
+{
+    display: none;
+}
+
+.modal-content .modal-body .buttons .main-btn:hover
+{
+    color: #222f3e;
+}
