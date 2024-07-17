@@ -2,7 +2,7 @@ import React from "react";
 import { Button, Col, Container, Image, Row } from "react-bootstrap";
 import "../styles/About.css";
 import "../styles/Default.css";
-import MyImage from "../assets/images/pablo-escobar.png";
+import MyImage from "../assets/images/pablopicasso.jpeg";
 
 function About() {
   return (
