@@ -11,6 +11,7 @@ import {
   faCheck,
   faFileVideo,
   faShoppingCart,
+  faRectangleAd,
 } from "@fortawesome/free-solid-svg-icons";
 
 let ServicesData = [
@@ -66,6 +67,12 @@ let ServicesData = [
     serviceID: 9,
     serviceName: "Site Speed Optimization",
     serviceIcon: faCheck,
+  },
+
+  {
+    serviceID: 10,
+    serviceName: "Digital Marketing",
+    serviceIcon: faRectangleAd,
   },
 ];
 
